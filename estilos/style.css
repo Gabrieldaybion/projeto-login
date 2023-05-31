@@ -22,15 +22,7 @@ main{
     width: 100vw;
     height: 100vh;
 }
-section#login{
-    /* Para por no meio da tela  */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow: hidden;
-    /* Essas 5 linhas fazem o objeto ficar totalmente centralizado no site. */
-    
+section#login{  
     background-color: white;
     width: 270px;
     height: 450px;
@@ -38,6 +30,13 @@ section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.551) ;
     transition: width 0.4s, heigth 0.3s;
     transition-timing-function: ease; /* Faz a transição ser suave */
+    /* Para por no meio da tela  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    /* Essas 5 linhas fazem o objeto ficar totalmente centralizado no site. */
 }
 section#login > div#imagem{
     display: block;
