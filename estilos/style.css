@@ -61,8 +61,31 @@ div#formulario > p{
 form label{
     display: none;
 }
+
+div.campo >span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input{
+    background-color: #93d8d6;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);/* taca o objeto para cima */
+    height: 100%;
+    border: 0px;
+    border-radius: 7px;
+    padding: 4px;
+}
+div.campo > input:focus-within{
+    background-color: white;
+    
+}
+
 form > div.campo{
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
