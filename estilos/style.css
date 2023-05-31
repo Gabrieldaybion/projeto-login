@@ -72,15 +72,15 @@ div.campo > input{
     background-color: #93d8d6;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-12px);/* taca o objeto para cima */
     height: 100%;
     border: 0px;
     border-radius: 7px;
     padding: 4px;
+    transform: translateY(-12px);/* taca o objeto para cima [dica sempre põe na ultima linha]*/ 
 }
 div.campo > input:focus-within{
     background-color: white;
-    
+
 }
 
 form > div.campo{
